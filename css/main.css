@@ -153,6 +153,7 @@ textarea {
         letter-spacing: 1px;
         margin: 50px 0;
         text-align: left;
+        word-wrap: break-word;
         -webkit-animation: slidefrombottom 5s ease;
         animation: slidefrombottom 5s ease;
         -webkit-animation-iteration-count: 1;
@@ -169,9 +170,24 @@ textarea {
 
 .center {
     text-align:center; 
-    display:none
+ }
+
+.link {
+    color:#b1b6cc;
 }
 
+.image {
+   
+
+    width:100%
+}
+
+.button {
+    max-height:50px;
+    max-width:30%;
+    width:auto;
+    height:auto;
+}
 
 @-webkit-keyframes slidefrombottom {
     0%
@@ -231,7 +247,16 @@ border-bottom:5px solid #3399FF;
 display:none;
 }
 
-
+@media screen and (max-width: 720px) {
+    .title {
+        font-size: 24px;
+    }
+    .text2 {
+        line-height:2;
+        
+    }
+   
+}
 
 
 
