@@ -17,6 +17,7 @@
             $('#fade15').fadeIn(9500);
             $('#fade16').fadeIn(9500);
             $('#fade17').fadeIn(9500);
+            $('#fade18').fadeIn(5000);
             $(".slidingDiv").hide();
             $(".show_hide").show();
             $('.show_hide').click(function()
