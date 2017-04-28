@@ -16,6 +16,7 @@ html {
     line-height: 1.4;
 }
 
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -111,19 +112,19 @@ textarea {
         width: 100%;
         height: 100%;
     }
-    
+
     .top {
         padding: 50px 0;
         background-color: #fff;
         color: #121212;
     }
-    
+
     .content {
         max-width: 600px;
         margin: 0 auto;
         padding: 0 50px;
     }
-    
+
     .title {
         font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
         font-size: 32px;
@@ -158,9 +159,9 @@ textarea {
         animation: slidefrombottom 5s ease;
         -webkit-animation-iteration-count: 1;
         animation-iteration-count: 1;
-       
+
     }
-    
+
     .bottom {
         padding: 50px 0;
         padding-bottom: 200px;
@@ -169,7 +170,7 @@ textarea {
     }
 
 .center {
-    text-align:center; 
+    text-align:center;
  }
 
 .link {
@@ -185,6 +186,12 @@ textarea {
     max-width:30%;
     width:auto;
     height:auto;
+    opacity:0.7;
+    filter:alpha(opacity=40);
+}
+
+.fadeInSection {
+    opacity:0;
 }
 
 @-webkit-keyframes slidefrombottom {
@@ -193,7 +200,7 @@ textarea {
         -webkit-transform: translateY(50px);
         transform: translateY(50px);
     }
-     
+
   100%
     {
         -webkit-transform: translateY(0px);
@@ -202,22 +209,22 @@ textarea {
 }
 
 @keyframes slidefrombottom {
-   
+
    0%
     {
         -webkit-transform: translateY(50px);
         transform: translateY(50px);
     }
-     
+
   100%
     {
         -webkit-transform: translateY(0px);
         transform: translateY(0px);
     }
-} 
+}
 
 
- 
+
 .frombottom
 {
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
@@ -251,9 +258,9 @@ display:none;
     }
     .text2 {
         line-height:2;
-        
+
     }
-   
+
 }
 
 
@@ -419,13 +426,13 @@ display:none;
 
     }
     .center {
-            text-align: left; 
+            text-align: left;
              margin-top:-20px !important;
     }
 
   .text1 {
-       
-      
+
+
     }
     .slidingDiv6 {
         display:block !important;
@@ -448,7 +455,7 @@ display:none;
         display:block !important;
         margin-top:-100px !important;
          page-break-inside: avoid;
-       
+
     }
     .slidingDiv4 {
         display:block !important;
@@ -461,11 +468,11 @@ display:none;
         page-break-inside: avoid;
     }
     body {
-           font-size: 90%; 
+           font-size: 90%;
     }
-   
 
-   
+
+
 
     p,
     h2,
